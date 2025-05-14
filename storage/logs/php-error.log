@@ -1,0 +1,167 @@
+[13-May-2025 17:07:11 America/Bogota] PHP Fatal error:  Uncaught TypeError: Config\Router::registrar(): Argument #3 ($callback) must be of type callable, array given, called in C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php on line 7 and defined in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php:35
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(7): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#1 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(30): NivelActividadRoute::registrar(Object(Config\Router))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(18): Config\Router->cargarSubrutas()
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(21): Config\Router->__construct('api/nivel-activ...', 'GET')
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php on line 35
+[13-May-2025 17:08:46 America/Bogota] PHP Fatal error:  Uncaught TypeError: Config\Router::registrar(): Argument #3 ($callback) must be of type callable, array given, called in C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php on line 7 and defined in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php:35
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(7): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#1 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(30): NivelActividadRoute::registrar(Object(Config\Router))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(18): Config\Router->cargarSubrutas()
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(20): Config\Router->__construct('api/nivel-activ...', 'GET')
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php on line 35
+[13-May-2025 17:13:38 America/Bogota] PHP Fatal error:  Uncaught TypeError: Config\Router::registrar(): Argument #3 ($callback) must be of type callable, array given, called in C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php on line 7 and defined in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php:35
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(7): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#1 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(30): NivelActividadRoute::registrar(Object(Config\Router))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(18): Config\Router->cargarSubrutas()
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(20): Config\Router->__construct('api/nivel-activ...', 'GET')
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php on line 35
+[13-May-2025 17:17:39 America/Bogota] PHP Fatal error:  Uncaught TypeError: Config\Router::registrar(): Argument #3 ($callback) must be of type callable, array given, called in C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php on line 7 and defined in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(7): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#1 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(31): NivelActividadRoute::registrar(Object(Config\Router))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(18): Config\Router->cargarSubrutas()
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(20): Config\Router->__construct('api/nivel-activ...', 'GET')
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php on line 39
+[13-May-2025 17:17:52 America/Bogota] PHP Fatal error:  Uncaught TypeError: Config\Router::registrar(): Argument #3 ($callback) must be of type callable, array given, called in C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php on line 7 and defined in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(7): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#1 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(31): NivelActividadRoute::registrar(Object(Config\Router))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(18): Config\Router->cargarSubrutas()
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(20): Config\Router->__construct('api/nivel-activ...', 'GET')
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php on line 39
+[13-May-2025 18:42:10 America/Bogota] PHP Fatal error:  Uncaught Error: Class "queryDB" not found in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php:7
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(576): include()
+#1 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(42): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(11): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#4 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(37): Routes\NivelActividadRoute::registrar(Object(Config\Router))
+#5 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(16): Config\Router->loadSubrutas()
+#6 C:\wamp64\www\playground-calculadora_calorias_api\index.php(21): Config\Router->__construct('nivel-actividad...', 'GET')
+#7 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php on line 7
+[13-May-2025 18:43:01 America/Bogota] PHP Fatal error:  Uncaught Error: Class "queryDB" not found in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php:7
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(576): include()
+#1 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(42): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(11): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#4 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(37): Routes\NivelActividadRoute::registrar(Object(Config\Router))
+#5 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(16): Config\Router->loadSubrutas()
+#6 C:\wamp64\www\playground-calculadora_calorias_api\index.php(21): Config\Router->__construct('nivel-actividad...', 'GET')
+#7 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php on line 7
+[13-May-2025 18:43:54 America/Bogota] PHP Fatal error:  Uncaught Error: Class "queryDB" not found in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php:7
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(576): include()
+#1 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(42): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(11): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#4 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(37): Routes\NivelActividadRoute::registrar(Object(Config\Router))
+#5 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(16): Config\Router->loadSubrutas()
+#6 C:\wamp64\www\playground-calculadora_calorias_api\index.php(21): Config\Router->__construct('nivel-actividad...', 'GET')
+#7 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php on line 7
+[13-May-2025 18:44:10 America/Bogota] PHP Fatal error:  Uncaught Error: Class "queryDB" not found in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php:7
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(576): include()
+#1 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(42): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(11): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#4 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(37): Routes\NivelActividadRoute::registrar(Object(Config\Router))
+#5 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(16): Config\Router->loadSubrutas()
+#6 C:\wamp64\www\playground-calculadora_calorias_api\index.php(21): Config\Router->__construct('nivel-actividad...', 'GET')
+#7 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php on line 7
+[13-May-2025 18:44:19 America/Bogota] PHP Fatal error:  Uncaught Error: Class "queryDB" not found in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php:7
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(576): include()
+#1 C:\wamp64\www\playground-calculadora_calorias_api\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(42): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\playground-calculadora_calorias_api\routes\NivelActividadRoute.php(11): Config\Router->registrar('nivel-actividad...', 'GET', Array)
+#4 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(37): Routes\NivelActividadRoute::registrar(Object(Config\Router))
+#5 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(16): Config\Router->loadSubrutas()
+#6 C:\wamp64\www\playground-calculadora_calorias_api\index.php(21): Config\Router->__construct('nivel-actividad...', 'GET')
+#7 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php on line 7
+[13-May-2025 18:45:35 America/Bogota] PHP Fatal error:  Uncaught Error: Non-static method Config\Database\QueryDB::get() cannot be called statically in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#1 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#3 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php on line 11
+[13-May-2025 19:01:18 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php:19
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php(13): Config\Database\QueryDB::all(Object(App\Models\NivelActividadModel))
+#1 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php on line 19
+[13-May-2025 19:02:50 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php:19
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php(13): Config\Database\QueryDB::all(Object(App\Models\NivelActividadModel))
+#1 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php on line 19
+[13-May-2025 19:03:34 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php:19
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php(13): Config\Database\QueryDB::all(Object(App\Models\NivelActividadModel))
+#1 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php on line 19
+[13-May-2025 19:04:07 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php:19
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php(13): Config\Database\QueryDB::all(Object(App\Models\NivelActividadModel))
+#1 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php on line 19
+[13-May-2025 19:08:51 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php:22
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php(13): Config\Database\QueryDB::all(Object(App\Models\NivelActividadModel))
+#1 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php on line 22
+[13-May-2025 19:10:15 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php:22
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php(13): Config\Database\QueryDB::all(Object(App\Models\NivelActividadModel))
+#1 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php on line 22
+[13-May-2025 19:11:04 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php:22
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php(13): Config\Database\QueryDB::all(Object(App\Models\NivelActividadModel))
+#1 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php on line 22
+[13-May-2025 19:12:35 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php:22
+Stack trace:
+#0 C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php(13): Config\Database\QueryDB::all(Object(App\Models\NivelActividadModel))
+#1 [internal function]: App\Controllers\NivelActividadController::listar(Object(Config\Request))
+#2 C:\wamp64\www\playground-calculadora_calorias_api\config\Router.php(54): call_user_func(Array, Object(Config\Request))
+#3 C:\wamp64\www\playground-calculadora_calorias_api\index.php(24): Config\Router->resolver()
+#4 {main}
+  thrown in C:\wamp64\www\playground-calculadora_calorias_api\config\Database\QueryDB.php on line 22
+[13-May-2025 20:01:30 America/Bogota] PHP Parse error:  syntax error, unexpected token "}" in C:\wamp64\www\playground-calculadora_calorias_api\app\Controllers\NivelActividadController.php on line 17
