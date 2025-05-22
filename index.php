@@ -10,6 +10,12 @@ ErrorLog::activateErrorLog();
 
 header('Content-Type: application/json');
 
+// Permitir acceso desde cualquier origen (o reemplaza con el dominio exacto si prefieres)
+header("Access-Control-Allow-Origin: *");
+
+// Permitir métodos necesarios
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
+
 $route = $_GET['route'] ?? '';
 $method = $_SERVER['REQUEST_METHOD'];
 
